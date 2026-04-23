@@ -71,7 +71,7 @@ export default function Hero() {
     grid: { display: "grid", gridTemplateColumns: isMobile ? "1fr" : "1fr 1fr", borderTop: "var(--rule)" },
     left: { borderRight: isMobile ? "none" : "var(--rule)", borderBottom: isMobile ? "var(--rule)" : "none", paddingRight: isMobile ? "0" : "48px", paddingTop: "40px", paddingBottom: "40px" },
     right: { paddingLeft: isMobile ? "0" : "48px", paddingTop: "40px", paddingBottom: "40px", display: "flex", flexDirection: "column", justifyContent: "space-between" },
-    headline: { fontFamily: "var(--serif)", fontSize: "clamp(36px, 5.5vw, 84px)", fontWeight: "900", lineHeight: "1.1", letterSpacing: "-0.02em", marginBottom: "32px", color: "var(--gray-600)" },
+    headline: { fontFamily: "var(--serif)", fontSize: "clamp(47px, 7.15vw, 109px)", fontWeight: "900", lineHeight: "1.1", letterSpacing: "-0.02em", marginBottom: "32px", color: "var(--gray-600)" },
     subheadline: { fontFamily: "var(--body-serif)", fontSize: isMobile ? "17px" : "20px", lineHeight: "1.6", color: "var(--gray-600)", maxWidth: "480px", marginBottom: "48px" },
     statsRow: { display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(3, 1fr)", borderTop: "var(--rule)", paddingTop: "32px", gap: "24px" },
     stat: { fontFamily: "var(--serif)", fontSize: "42px", fontWeight: "700", letterSpacing: "-0.03em", lineHeight: "1", marginBottom: "4px", color: "var(--gray-600)" },
